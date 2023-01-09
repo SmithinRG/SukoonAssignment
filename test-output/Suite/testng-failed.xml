@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="sukoon.webautomation.testScripts.InsuranceCreationTest">
+        <methods>
+          <include name="verifyInsuranceCreation"/>
+          <include name="driverIntialize"/>
+          <include name="testComplete"/>
+          <include name="loadWebPage"/>
+        </methods>
+      </class> <!-- sukoon.webautomation.testScripts.InsuranceCreationTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T06:24:47 IST" name="Suite" finished-at="2023-01-09T06:26:00 IST" duration-ms="72608">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T06:24:47 IST" name="Smoke" finished-at="2023-01-09T06:26:00 IST" duration-ms="72608">
+      <class name="sukoon.webautomation.testScripts.InsuranceCreationTest">
+        <test-method is-config="true" signature="driverIntialize(java.lang.String)[pri:0, instance:sukoon.webautomation.testScripts.InsuranceCreationTest@4facf68f]" started-at="2023-01-09T06:24:47 IST" name="driverIntialize" finished-at="2023-01-09T06:24:49 IST" duration-ms="1655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverIntialize -->
+        <test-method is-config="true" signature="loadWebPage()[pri:0, instance:sukoon.webautomation.testScripts.InsuranceCreationTest@4facf68f]" started-at="2023-01-09T06:24:49 IST" name="loadWebPage" finished-at="2023-01-09T06:24:52 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadWebPage -->
+        <test-method signature="verifyInsuranceCreation()[pri:0, instance:sukoon.webautomation.testScripts.InsuranceCreationTest@4facf68f]" started-at="2023-01-09T06:24:52 IST" name="verifyInsuranceCreation" finished-at="2023-01-09T06:26:00 IST" duration-ms="67726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInsuranceCreation -->
+        <test-method is-config="true" signature="testComplete()[pri:0, instance:sukoon.webautomation.testScripts.InsuranceCreationTest@4facf68f]" started-at="2023-01-09T06:26:00 IST" name="testComplete" finished-at="2023-01-09T06:26:05 IST" duration-ms="5670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComplete -->
+      </class> <!-- sukoon.webautomation.testScripts.InsuranceCreationTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>
